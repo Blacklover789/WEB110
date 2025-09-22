@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!--Kainat Arshad Ch.4 CSS extra credit 09/21/2025-->
+<html lang="en">
+<head>
+<title>CSS Practice Extra Credit</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Put your CSS styles below */
+
+    
+    
+    
+    
+    /*The CSS below needs to stay here. Don't touch it if you want your page to work.  See note below for the one item that can be removed. */
+    /* If you want to change the colors of the boxes those colors are on line 40,48,abd 54.  Feel free to change those. */
+ * 
+{
+  box-sizing: border-box;
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px)
+{
+  .column.side, .column.middle
+    {
+    width: 100%;
+     }
+ }
+    /* Create three unequal columns that floats next to each other */
+.column
+{
+  float: left;
+  padding: 10px;
+  height: 300px; /* This one can be removed.  It creates a container for your test. But can be removed when you add text. Only for demonstration to force a big box to appear.*/
+}
+
+/* Left column */
+.column.sideleft 
+{
+  width: 25%;
+  background-color:#14a7d8;
+  overflow: auto;
+  text-align:left;
+}
+
+/* Middle column */
+.column.middle
+{
+  width: 50%;
+  background-color:#07a091;
+}
+/* right column */
+.column.sideright
+{
+  width: 25%;
+ background-color:#c21c13;
+}
+
+/* Clear floats after the columns */
+.row:after
+{
+  content: "";
+  display: table;
+  clear: both;
+}
+#footer{
+  text-align: center;
+  color: #07a091;
+}
+.header{
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(243, 204, 154);
+  text-align: center;
+}
+.subheader{
+   font-size: 30px;
+  background-color: rgb(255, 232, 202);
+  text-align: center;
+  color: darkred;
+}
+
+</style>
+</head>
+<body>
+
+
+    
+<!-- The header section --> 
+<div class="header">
+  <h2>Kainat Arshad</h2>
+</div>
+
+ <div class="subheader" > <!-- The subheader section --> 
+  <h3>This is my first CSS web page with CSS! </h3>
+</div>
+<div>
+    <!-- The first column --> 
+	<div class="column sideleft">
+	<p> <strong>My Favorite Foods</strong> </p>
+		<!-- Create a list here of 5 of your favorite foods-->
+     <ul>
+      <li>Pizza</li>
+      <li>Chow mein</li>
+      <li>Pasta</li>
+      <li>Chicken wings</li>
+     </ul>
+	</div>
+    
+     <!-- The second column --> 
+	<div class="column middle">
+	<p><strong>5 facts about you </strong></p>
+	<!-- Create a list here of 5 facts about you. You can include movies, hobbies, etc.-->
+   <ul>
+    <li>One of my favorite hobbies is sketching, which allows me to be creative and express my ideas through art.</li>
+    <li>I also enjoy traveling around the world, as it gives me the chance to explore new cultures and places.</li>
+    <li>My biggest goal in life is to be happy and independent.</li>
+   </ul>
+	</div>
+    
+     <!-- The third column --> 
+	<div class="column sideright">
+    <p><strong>What do you want to do after JCCC?</strong></p>
+  	<p>After completing my studies at JCCC, I plan to continue my education at a university to pursue and complete my bachelor's degree, which will help me achieve my future career goals.</p>
+	<!-- Create a paragraph or list of things you want to do after you leave JCCC-->
+	</div>
+</div>
+<br>
+<br>
+
+     <!-- The footer section --> 
+<div id="footer" >
+  <p>September 21,2025
+    <a href="mailto:KainatArshad@gmail.com.jccc.edu">KainatArshad@gmail.com.jccc.edu</a></p>
+</div>
+
+</body>
+</html>
+
+
