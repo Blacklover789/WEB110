@@ -1,0 +1,117 @@
+/* Kainat Arshad  wk10  11/18/2025 */
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #000;
+    max-width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+header {
+    text-align: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+header img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+.logo-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;              
+}
+
+.logo-section img {
+    max-width: 120px;
+    height: auto;
+}
+
+.logo-section h1 {
+    font-size: 24px;
+    margin: 0;
+}
+h2 {
+    margin-top: 0;
+    font-size: 28px;     
+    color: #115055;      
+}
+
+.form-group {
+    display: grid;
+    gap: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;      
+}
+
+input[type="text"],input[type="email"],input[type="tel"],textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    min-height: 80px;
+}
+
+.contact-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    gap: 10px;
+    font-size: 13px;
+}
+
+button[type="submit"] {
+    background-color: #2fac44;  
+    color: white;               
+    padding:5px 10px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    opacity: 0.8;                   
+    transform: scale(1.03);         
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 15px;
+    background-color: #f4f4f4;   
+    border-top: 2px solid #ccc;  
+}
+
+select{
+  border-color: #04AA6D;
+  background-color: #e8f5e9;
+}
+input[type=text]:focus,
+input[type=date]:focus,
+select:focus {
+  background-color: lightyellow;
+}
