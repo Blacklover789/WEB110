@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Esports World — Contact / Join</title>
+<style>
+form {
+    background:#1f2733; 
+    padding:20px; 
+    border-radius:8px; 
+    max-width:700px; 
+    margin:auto;
+}
+body{
+    background-image: url(Images/background.jpeg);
+    background-size: cover;      
+    background-repeat: no-repeat; 
+    background-position: center;  
+    background-attachment: fixed; 
+    font-family: Arial, sans-serif;
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background: #1f2733;
+    border-bottom: 4px solid #4cc9f0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #4cc9f0;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background: #1f2733;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #b1c5d8;
+}
+
+nav ul li a:hover {
+    color: #4cc9f0;
+}
+h2{
+    text-align: center;
+    color: #ffffff;
+}
+label{
+    display:block; 
+    margin-top:10px; 
+    color:#d9e8f2;
+}
+input, select, textarea {
+    width:100%; 
+    padding:8px; 
+    margin-top:6px; 
+    border-radius:6px; 
+    border:none;
+}
+input[type="submit"], input[type="reset"]{
+    width:48%; 
+    padding:10px; 
+    margin-top:12px; 
+    background:#4cc9f0; 
+    color:#ffffff; 
+    font-weight:bold; 
+    border-radius:6px; 
+    cursor:pointer
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background: #1f2733;
+    border-top: 4px solid #4cc9f0;
+    color: #ffffff;
+}
+
+@media(max-width:600px){ input[type="submit"], input[type="reset"]{width:100%;} }
+</style>
+</head>
+<body>
+<header>
+<h1>Contact & Join Esports World</h1>
+<p style="color: #ffffff;">Sign up for updates or send us a message.</p>
+</header>
+
+
+<nav>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About Esports</a></li>
+<li><a href="teams.html">Top Teams</a></li>
+<li><a href="tournaments.html">Tournaments</a></li>
+<li><a href="careers.html">Careers & Training</a></li>
+<li><a href="contact.html">Contact / Join</a></li>
+</ul>
+</nav>
+
+
+<main id="wrapper">
+<section>
+<h2>Join Our Community</h2>
+<form action="#" method="post">
+<label for="name">Full Name</label>
+<input id="name" name="name" type="text" required>
+
+
+<label for="email">Email</label>
+<input id="email" name="email" type="email" required>
+
+
+<label for="genre">Favorite Game Genre</label>
+<select id="genre" name="genre">
+<option>FPS</option>
+<option>MOBA</option>
+<option>Battle Royale</option>
+</select>
+
+
+<label>Preferred Platform</label>
+
+<input type="radio" id="pc" name="platform" value="PC">
+<label for="pc">PC</label>
+
+<input type="radio" id="console" name="platform" value="Console">
+<label for="console">Console</label>
+
+
+
+<label for="dob">Date of Birth</label>
+<input id="dob" name="dob" type="date">
+
+
+<label for="news">Subscribe to newsletter?</label>
+<input id="news" name="news" type="checkbox">
+
+
+<label for="comments">Comments</label>
+<textarea id="comments" name="comments" rows="4"></textarea>
+
+
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</form>
+</section>
+
+
+</main>
+
+<footer>
+    <aside>
+<h3 style="color:white;">Why Join?</h3>
+<p>
+    Exclusive esports updates<br>
+    Community tournaments<br>
+    Training tips from pros<br>
+</p>
+
+<h3 style="color:white; margin-top:20px;">Contact Information</h3>
+<p style="color:white;">📧 Email:<a href="mailto:info@esportsworld.com" >info@esportsworld.com</a></p>
+<p style="color:white;">📞 Phone: (555) 123-4567</p>
+<p style="color:white;">📍 Location: Kansas, IL</p>
+
+<p style="color:white;">You can also reach us directly through the form on this page.</p>
+</aside>
+<p>&copy; 2025 Esports World</p>
+</footer>
+</body>
+</html>
