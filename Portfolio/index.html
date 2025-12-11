@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Data Viz Portfolio-Home</title>
+<style>
+body { 
+    font-family: Arial, sans-serif; 
+    background:#f7f7f7; 
+    padding:0; 
+    margin:0;
+
+}
+header { 
+    background:#162b3d; 
+    color:white; 
+    padding:20px; 
+    text-align:center;
+    
+ }
+nav a { 
+    margin:0 15px; 
+    color:white; 
+    text-decoration:none; 
+    font-weight:bold; 
+}
+.container {
+     max-width:900px; 
+     background:white; 
+     margin:30px auto; 
+     padding:20px; 
+     border-radius:10px;
+ }
+ 
+.gallery { 
+    display:flex; 
+    justify-content:center; 
+    gap:20px; 
+    margin:30px auto; 
+    flex-wrap:wrap; 
+}
+.gallery img { 
+    width:350px; 
+    height:250px; 
+    object-fit:cover; 
+    border-radius:12px; 
+    box-shadow:0 4px 8px rgba(0,0,0,0.3); 
+    transition:transform .3s ease,
+    box-shadow .3s ease; 
+}
+.gallery img:hover { 
+    transform:scale(1.08);
+    box-shadow:0 8px 16px rgba(0,0,0,0.45); 
+}
+
+</style>
+</head>
+<body>
+    
+<header>
+<h1>My Data Visualization Portfolio</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About Me / Contact</a>
+<a href="dataviz.html">Data Visualization Work</a>
+</nav>
+</header>
+
+
+<div class="container">
+<h2>Welcome!</h2>
+<p>This ePortfolio highlights the data visualization projects I completed in my Data Visualization coursework. You will find charts, dashboards, and analysis created using Tableau, Excel, and other tools.</p>
+<p>Explore the pages above to learn more about me and view my work.</p>
+</div>
+<div class="gallery">
+<img src="image/linechart.jpg" alt="Line Chart" width="400" height="250">
+<img src="image/PowerBI.jpg" alt="Power BI" width="400" height="250">
+<img src="image/Scatterplot.jpg" alt="Scatterplot" width="400" height="250">
+</div>
+</body>
+</html>
+

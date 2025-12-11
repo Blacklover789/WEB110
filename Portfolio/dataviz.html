@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Visualization Projects</title>
+<style>
+body { 
+    font-family: Arial, sans-serif;
+    background:#f7f7f7; 
+    padding:0; 
+    margin:0; 
+}
+header { 
+    background:#2a4d69; 
+    color:white; 
+    padding:20px; 
+    text-align:center; 
+}
+nav a { margin:0 15px; 
+    color:white; 
+    text-decoration:none; 
+    font-weight:bold; 
+}
+.container { 
+    max-width:900px; 
+    background:white;
+    margin:30px auto; 
+    padding:20px; 
+    border-radius:10px;
+     }
+img { 
+    width:100%; 
+    max-height:350px; 
+    object-fit:contain; 
+    border:1px solid #ccc; 
+    margin-top:10px; 
+    border-radius:8px; 
+}
+.project-box {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+.project-title {
+    font-size: 1.8em;      /* Bigger topic title */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.project-box img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.project-text {
+    width: 55%;
+}
+
+.project { 
+    margin-bottom:40px; 
+    }
+</style>
+</head>
+<body>
+<header>
+<h1>Data Visualization Projects</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About Me / Contact</a>
+<a href="dataviz.html">Data Visualization Work</a>
+</nav>
+</header>
+
+
+<div class="container">
+<h2>My Visualization Samples</h2>
+<section>
+<h3 class="project-title">Crime Rate Analysis</h3>
+<div class="project-box">
+
+<img src="image/Dashboard.jpg" alt="Crime Chart">
+<p>This dashboard offers a multi-faceted view of crime rates in California, primarily focusing on data from 2013 while also providing a historical context. 
+    The top-left Crime Rate by County (2013) bar chart immediately highlights outliers, showing Vernon City with a significantly high crime rate of 7,181, far exceeding the next highest, Weed City, at 2,646. 
+    Complementing this is the top-right Crime Rate Trend in California (2000-2013) line chart, which illustrates a consistent decline in the statewide crime rate over the 13-year period, dropping from 6.217 in 2000 to 3.959 in 2013. 
+    The bottom-left section, Crime Rate by Years on Map, provides a geographic visualization, with numbers scattered across the state indicating various reported crime incident totals, ranging from 72 up to 20,320, though the specific year corresponding to the totals on the map is not explicitly labeled. Finally, 
+    the bottom-right Crime Rate by Race in Different Region bar chart breaks down total reported crime regionally, 
+    showing Southern California leading all regions with a massive total crime rate of 20,329.</p>
+</div>
+</section>
+<section>
+<h3 class="project-title"> Coffee Shop Menu Analysis: Volume and Caffeine Content</h3>
+<div class="project-box">
+
+<img src="image/PowerBI.jpg" alt="Bar Chart">
+<p>This Chart provides a clear summary and detailed analysis of beverages, focusing on their count and average caffeine content. 
+    Overall, the analysis covers 220 different beverages categorized into 8 distinct groups. 
+    The "Count of Beverage by Category" bar chart reveals that the Classic Espresso category is the most numerous, containing 58 beverages, followed by Signature Espresso with 40, and Frappuccino Blended Coffee with 36. 
+    The central chart, "Average of Caffeine (mg) by Beverage," ranks the beverages by their caffeine strength. The strongest beverage is the Caffè Americano, averaging 187.50 mg of caffeine, with Shaken Iced Tazo Tea Lemonade being the next highest at 170.00 mg. 
+    The listed beverages' average caffeine contents generally cluster around the 110 mg to 133 mg range, with Java Chip (Without Coffee) sitting at the lowest listed average of 110.00 mg.</p>
+</div>
+</section>
+<section>
+<h3 class="project-title">Trend Analysis of Movie Production Volume (2007-2021).</h3>
+<div class="project-box">
+
+<img src="image/Rplot.png" alt="Visualization">
+<p>This bar chart "Movie Count by Release Year", which visualizes the total number of movies released annually from 2007 through 2021.
+    The chart shows that the years 2018 and 2017 had the highest movie counts, with 767 and 765 releases, respectively, indicating peak production during that period.
+    Following these years are 2016 and 2019, which also had high counts of 658 and 633 movies.
+    A notable drop occurred in 2020, likely due to external factors, with the count falling to 517, and the count for 2021 was even lower at 277 (as of the dataset's end). 
+    In contrast, the earliest years in the dataset, particularly 2007, had the lowest count at 74 movies, showing a clear trend of increasing movie production volume over the fifteen-year span covered by the data.</p>
+</div>
+</section>
+
+</div>
+</body>
+</html>
