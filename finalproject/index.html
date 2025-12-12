@@ -1,75 +1,84 @@
+<!-- Kainat Arshad — Final Project — Esports World — Home Page — 2025-09-12 -->
 <!DOCTYPE html>
-<!--Kainat Arshad Final Project 09/12/2025-->
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Esports World — Home</title>
+
+<!-- External stylesheet -->
 <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+
 <header>
-<h1>Esports World</h1>
-<p>Your central guide to competitive gaming.</p>
+    <h1>Esports World</h1>
+    <p>Your central guide to competitive gaming.</p>
 </header>
 
+<!-- Main navigation bar -->
 <nav>
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="about.html">About Esports</a></li>
-<li><a href="teams.html">Top Teams</a></li>
-<li><a href="tournaments.html">Tournaments</a></li>
-<li><a href="careers.html">Careers & Training</a></li>
-<li><a href="contact.html">Contact / Join</a></li>
-</ul>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Esports</a></li>
+        <li><a href="teams.html">Top Teams</a></li>
+        <li><a href="tournaments.html">Tournaments</a></li>
+        <li><a href="careers.html">Careers & Training</a></li>
+        <li><a href="contact.html">Contact / Join</a></li>
+    </ul>
 </nav>
 
 <main id="wrapper">
+
 <section class="columns">
-<h2>Welcome to Esports World</h2>
+    <h2>Welcome to Esports World</h2>
 
-<p>Esports World is dedicated to the competitive gaming scene. Explore tournaments, top teams, and career pathways for gamers. This site is designed for anyone curious about esports — from casual viewers to aspiring professionals.</p>
+    <!-- Intro content explains the topic -->
+    <p>Esports World is dedicated to the competitive gaming scene. Explore tournaments, top teams, and career pathways for gamers. This site is designed for anyone curious about esports — from casual viewers to aspiring professionals.</p>
 
-<p>We cover major events, team profiles, training tips, and industry news. Use the navigation bar to jump between pages and learn more.</p>
+    <p>We cover major events, team profiles, training tips, and industry news. Use the navigation bar to jump between pages and learn more.</p>
 
-<p>Watch live matches, learn how players train, and find resources to improve your game.</p>
+    <p>Watch live matches, learn how players train, and find resources to improve your game.</p>
 
+    <!-- Image slider / flexible images -->
+    <div class="slider">
+        <input type="radio" name="slide" id="s1" checked>
+        <input type="radio" name="slide" id="s2">
+        <input type="radio" name="slide" id="s3">
 
-<div class="slider">
+        <div class="slides">
+            <img src="images/Arena.jpg" alt="Esports Arena" class="img1">
+            <img src="images/Esport.jpg" alt="Esports Event" class="img2">
+            <img src="images/Arena1.jpg" alt="Arena 2" class="img3">
+        </div>
 
-    <input type="radio" name="slide" id="s1" checked>
-    <input type="radio" name="slide" id="s2">
-    <input type="radio" name="slide" id="s3">
-
-    <div class="slides">
-        <img src="images/Arena.jpg" alt="Arena" class="img1">
-        <img src="images/Esport.jpg" alt="Esports Event" class="img2">
-        <img src="images/Arena1.jpg" alt="Arena 2" class="img3">
+        <div class="navigation">
+            <label for="s1" class="bar"></label>
+            <label for="s2" class="bar"></label>
+            <label for="s3" class="bar"></label>
+        </div>
     </div>
-
-    <div class="navigation">
-        <label for="s1" class="bar"></label>
-        <label for="s2" class="bar"></label>
-        <label for="s3" class="bar"></label>
-    </div>
-
-</div>
 </section>
 
-<aside>
-<h3>Top Esports Live Game Platforms</h3>
-<ul>
-<li><a href="https://www.twitch.tv" target="_blank">Most popular for esports livestreams</a></li>
-<li><a href="https://www.youtube.com/gaming" target="_blank">Major esports leagues stream their events</a></li>
-</ul>
 
-<h3>Platforms Where You Can Play Esports Games</h3>
-<ul>
-<li><a href="https://store.steampowered.com" target="_blank">Steam (PC games platform)</a></li>
-<li><a href="https://www.epicgames.com" target="_blank">Epic Games Store</a></li>
-<li><a href="https://battle.net" target="_blank">Battle.net</a></li>
-</ul>
+<aside>
+    <h3>Top Esports Live Game Platforms</h3>
+    <ul>
+        <li><a href="https://www.twitch.tv" target="_blank">Most popular for esports livestreams</a></li>
+        <li><a href="https://www.youtube.com/gaming" target="_blank">Major esports leagues stream here</a></li>
+    </ul>
+
+    <h3>Where You Can Play Esports Games</h3>
+    <ul>
+        <li><a href="https://store.steampowered.com" target="_blank">Steam (PC)</a></li>
+        <li><a href="https://www.epicgames.com" target="_blank">Epic Games Store</a></li>
+        <li><a href="https://battle.net" target="_blank">Battle.net</a></li>
+    </ul>
+
+    <!-- Required: File download link -->
+    <h3>Downloads</h3>
+    <p><a href="images/Esportguide.pdf" target="_blank" download>Download Esports Guide (PDF)</a></p>
 </aside>
 
 </main>
